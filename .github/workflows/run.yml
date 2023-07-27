@@ -1,8 +1,8 @@
-name: actions-trial
+name: gdc tests
 on: [push]
 jobs:
   check-bats-version:
     runs-on: ubuntu-latest
     steps:
-      - run: echo "first action!"
+      - run: ./test_sh/test_gcd.sh
 
