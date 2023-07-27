@@ -6,4 +6,5 @@ jobs:
     steps:
     - uses: actions/checkout@master
     - run: ./test_sh/test_gcd.sh
+    - run: ./test_sh/test_input.sh
 
